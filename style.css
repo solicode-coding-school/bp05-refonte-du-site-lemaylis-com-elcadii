@@ -422,6 +422,18 @@ button {
   margin-left: 40%;
 }
 /* ____________________media icons_______________________ */
+.icons {
+  position: absolute;
+  left: 5%;
+}
+.icons a img {
+  margin: 18px;
+  width: 25px;
+  transition: 0.5s;
+}
+.icons a img:hover {
+  transform: scale(1.4);
+}
 .fotercontact,
 .foterLocation {
   margin-top: 35px;
